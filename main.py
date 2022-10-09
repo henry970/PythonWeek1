@@ -1,5 +1,8 @@
 #Task 1---------------------------------
 
+from asyncio import Task
+
+
 print("Hello World")
 print("Okolie Chijioke Henry")
 
@@ -96,4 +99,95 @@ for i in range(number):
     if i == 8:
         break
     print("Number:", i)
+
+# Week two
+
+# Task 9
+
+def name():
+    print("Hello World")
+
+def test_case():
+    pass
+
+name()
+test_case()
+
+
+# Task 10
+
+def invoke(cb):
+    cb("Hello world")
+
+hello = lambda : print("Hello world")
+hello()
+
+invoke(lambda x: print(x))
+
+
+# Task 11
+def add(numb1, numb2):
+    result = numb1+numb2
+    print("result", result)
+
+def print_value(name1, name2):
+    result = name1 + name2
+    return result
+
+abc = print_value("Testify" ' ', "python")
+print(abc)
+
+
+add(20, 25)
+
+# TASK 12
+language = "Python"
+
+def greet():
+    language = "Java"
+    print("language:", language)
+
+
+greet()
+
+#TASK 13
+
+def reduce(x):
+
+    if x == 1:
+        return 1
+
+
+num = 3
+print("Hello world")
+
+
+
+# Task14
+
+my_value = "testify"
+upper_value = my_value.upper()
+
+print("Upper:", upper_value)
+
+
+
+# TASK15
+
+list = ["Fish", "Meat", "Egg", "Butter", "Fruit", "Cheese", "Hem", "Oil"]
+print(list)
+list.sort()
+print(list)
+
+# Task16
+
+books = {
+    "Lolita": "Vladimir Nabokov",
+    "The Great Gatsby": "F. Scott Fitzgerald",
+    "In Search of Lost Time": " by Marcel Proust",
+    "Ulysses": "James Joyce"
+}
+print(books)
+books.update({"Pale Fire": "Vladimir Nabokov"})
+print("update:", books)
 
